@@ -52,3 +52,4 @@ web3.eth.getTransaction(txHash, function (error, result) {
   if (!error) console.log(result);
   else console.error(error);
 });
+
