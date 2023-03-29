@@ -1,4 +1,4 @@
-const labContract = artifacts.require('nft');
+const labContract = artifacts.require('Token');
 module.exports = function (deployer) {
   deployer.deploy(nft);
 };
